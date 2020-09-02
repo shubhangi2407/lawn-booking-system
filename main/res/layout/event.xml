@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="nandanvanlawns.seed.com.nandanvanlawns.EventActivity">
+
+
+
+    <ImageButton
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:id="@+id/bday"
+        android:background="@drawable/bday"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="280dp"
+        android:layout_height="30dp"
+        android:text="Choose Your Event:"
+        android:textSize="20dp"
+        android:textColor="#000"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/bday"
+        android:layout_alignStart="@+id/bday"
+        android:id="@+id/textView4" />
+
+    <ImageButton
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:id="@+id/wedding"
+        android:background="@drawable/wedding"
+        android:layout_marginTop="250dp"
+        android:layout_centerHorizontal="true" />
+    <ImageButton
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:id="@+id/other"
+        android:background="@drawable/other"
+        android:layout_marginTop="470dp"
+        android:layout_centerHorizontal="true" />
+    <ImageButton
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:id="@+id/reception"
+        android:background="@drawable/reception"
+        android:layout_marginTop="690dp"
+        android:layout_centerHorizontal="true" />
+    <ImageButton
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:id="@+id/corporate"
+        android:background="@drawable/corporate"
+        android:layout_marginTop="910dp"
+        android:layout_centerHorizontal="true" />
+    <ImageButton
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:id="@+id/naming"
+        android:background="@drawable/naming"
+        android:layout_marginTop="1130dp"
+        android:layout_centerHorizontal="true" />
+    <ImageButton
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:id="@+id/ring"
+        android:background="@drawable/ring"
+        android:layout_marginTop="470dp"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
+</ScrollView>
